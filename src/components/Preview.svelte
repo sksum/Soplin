@@ -14,13 +14,13 @@
 </script>
 
 <style>
-	div {
-		position: relative;
-		width: 40%;
+	#prevArea {
+		width: 100%;
 		height: 100%;
-		float: right;
+		border: 1px solid grey
+
 	}
 </style>
 
-<div id= "prevArea">
+<div class ='shadow p-3 mb-5 bg-white rounded'  id= "prevArea">
 </div>

@@ -1,8 +1,11 @@
-<script>
-</script>
-
 <svelte:head>
 	<title>Sapper project template</title>
 </svelte:head>
-
-<h1>Great success!</h1>
+<script>
+	// communicate with polka
+	let authenticate = () => {}
+	let loadClient = () => {}
+	let execute = () => {}
+</script>
+<button on:click={()=>authenticate().then(loadClient)}>authorize and load</button>
+<button on:click={execute}>execute</button>
