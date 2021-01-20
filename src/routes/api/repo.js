@@ -2,7 +2,7 @@ import fetch from "node-fetch";
 require('dotenv').config()
 const OrgName = process.env.OrgName;
 const RepName = process.env.RepName;
-
+console.log(OrgName)
 export async function post(req, res, next) {
   let repos = await fetch(`https://api.github.com/orgs/${OrgName}/repos`, {
     method: "GET",

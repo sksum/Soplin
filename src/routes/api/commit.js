@@ -2,6 +2,8 @@ import fetch from "node-fetch";
 require('dotenv').config()
 const OrgName = process.env.OrgName;
 const RepName = process.env.RepName;
+console.log(OrgName)
+
 /**
  * 
  * @param {*} req : {token, content, path} 
