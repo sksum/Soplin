@@ -9,6 +9,9 @@ add .env OrgName and RepName
 npm run dev / build
 ```
 
+login - https://soplin.herokuapp.com/
+simple editor (no git login) - https://soplin.herokuapp.com/main_view
+
 ### Features
 - [ ] Push notifs
 - [x] Copy all courseWorkMaterial to github
