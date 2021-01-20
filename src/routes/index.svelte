@@ -1,7 +1,7 @@
 <script context="module">
   export async function preload(page, session) {
     let { token } = session;
-
+    console.log(session)
     let client_id = process.env.CLIENT_ID_GIT || page.query.cl;
     if (!token)
       return this.redirect(
