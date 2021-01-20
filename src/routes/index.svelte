@@ -1,11 +1,11 @@
 <script context="module">
-  import { goto } from '@sapper/app';
   export async function preload(page, session) {
     let { token } = session;
-    let client_id = process.env.CLIENT_ID_GIT || page.query.cl;
-    console.log(session,client_id)
+
+    let client_id = process.env.CLIENT_ID_GIT;
     if (!token)
-      return goto(
+      return this.redirect(
+        302,
         `https://github.com/login/oauth/authorize?client_id=${client_id}&scope=user%20repo`
       );
     return { token };
