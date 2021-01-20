@@ -2,7 +2,7 @@
   export async function preload(page, session) {
     let { token } = session;
 
-    let client_id = process.env.CLIENT_ID_GIT;
+    let client_id = process.env.CLIENT_ID_GIT || page.query.cl;
     if (!token)
       return this.redirect(
         302,
