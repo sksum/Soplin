@@ -3,11 +3,14 @@
 ```bash
 cd soplin
 npm install # or yarn
-npm run dev
+
+add .env OrgName and RepName
+
+npm run dev / build
 ```
 
 ### Features
 - [ ] Push notifs
-- [ ] Copy all courseWorkMaterial to G-drive
-- [ ] In app content search (same as g-drive)
-- [ ] Make and Add markdown (showdown.js) notes to g-drive
+- [x] Copy all courseWorkMaterial to github
+- [ ] In app content search (same as github)
+- [x] Make and Add markdown (showdown.js) notes to github
