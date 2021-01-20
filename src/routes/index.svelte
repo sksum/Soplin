@@ -1,4 +1,5 @@
 <script context="module">
+  import { goto } from '@sapper/app';
   export async function preload(page, session) {
     let { token } = session;
     let client_id = process.env.CLIENT_ID_GIT || page.query.cl;
@@ -10,7 +11,6 @@
     return { token };
   }
 </script>
-import { goto } from '@sapper/app';
 
 <script>
   export let token;
