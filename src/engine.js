@@ -9,5 +9,4 @@ var converter = new showdown.Converter();
 const unsubscribe = md.subscribe(value => {
     var html = converter.makeHtml(value);
     prev.set(html)
-    console.log(html)
 });

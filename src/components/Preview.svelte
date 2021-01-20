@@ -4,7 +4,6 @@
 	let setId = () => {
 		area = document.getElementById('prevArea')
 		const unsubscribe = prev.subscribe(value => {
-		console.log(value)
 		area.innerHTML = value
 	});
 	}

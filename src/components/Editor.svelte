@@ -19,7 +19,6 @@
 	onMount(setupEngine);
 	let updateContent = (evt) => {
 		let current = evt.srcElement.innerText 
-		console.log(current)
 		md.set(current)
 	}
 

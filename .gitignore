@@ -3,8 +3,5 @@
 /src/node_modules/@sapper/
 yarn-error.log
 /__sapper__/
-credentials.json
 .env
-index.js
-index1.js
-token.json
+.sessions
