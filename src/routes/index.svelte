@@ -51,7 +51,7 @@
 </script>
 
 <svelte:head>
-  <title>Sapper project template</title>
+  <title>Homepage</title>
 </svelte:head>Hello ${user}
 <!-- currently disabled -->
 <button on:click={createRep}>Create Repository</button>

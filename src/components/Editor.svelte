@@ -24,5 +24,5 @@
 
 </script>
 
-<code class ='shadow p-3 mb-5 bg-white rounded' contentEditable on:input={updateContent}>
+<code class ='shadow p-3 mb-5 bg-white rounded' id="editorContent" contentEditable on:input={updateContent}>
 </code>
